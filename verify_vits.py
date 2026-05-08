@@ -44,7 +44,7 @@ def create_timm_model(model_name):
 
     if model_name == 'xcit_small_12_p16_224':
         base_model = timm.create_model(model_name, pretrained=False)
-        model_path = './model_tf/xcit-s12-ImageNet-eps-8.pth.tar'
+        model_path = './models/xcit-s12-ImageNet-eps-8.pth.tar'
         if os.path.exists(model_path):
             base_model.load_state_dict(torch.load(model_path))
         else:
@@ -57,7 +57,7 @@ def create_timm_model(model_name):
         
     elif model_name == 'deit_small_patch16_224':
         base_model = timm.create_model(model_name, pretrained=False)
-        model_path = './model_tf/advdeit_small.pth'
+        model_path = './models/advdeit_small.pth'
         if os.path.exists(model_path):
             base_model.load_state_dict(torch.load(model_path)['model'])
         else:
@@ -72,7 +72,7 @@ def create_timm_model(model_name):
         try:
             from rebuttal_model.swin import swin_base_patch4_window7_224
 
-            model_path = './model_tf/ad-Swin-B.pth'
+            model_path = './models/ad-Swin-B.pth'
 
             base_model = swin_base_patch4_window7_224(pretrained=False)
             
