@@ -84,3 +84,31 @@ Adversarial examples pose serious threats to deep neural networks, exposing fund
   
   - [JPEG](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py):Refer to [here](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py).
 
+
+## Acknowledgments
+
+ Code refers to [FIA](https://github.com/hcguoO0/FIA), [RPA](https://github.com/alwaysfoggy/RPA).
+
+ We thanks the authors for sharing sincerely.
+
+## Citation
+
+ If you find this work is useful in your research, please cite our paper:
+
+```
+@InProceedings{ICCV25_SMP_Attack,
+    author    = {Yang, Wen and Liu, Guodong and Ming, Di},
+    title     = {SMP-Attack: Boosting the Transferability of Feature Importance-based Adversarial Attack with Semantics-aware Multi-granularity Patchout},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {4444-4454}
+}
+
+```
+
+## Contact
+
+[Wen Yang](https://github.com/Winwina8/Winwina8.github.io/): [winwina8@126.com](mailto:winwina8@126.com)
+
+[Di Ming (*Corresponding Author)](https://midasdming.github.io/): [diming@cqut.edu.cn](mailto:diming@cqut.edu.cn)
