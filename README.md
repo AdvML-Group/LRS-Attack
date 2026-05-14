@@ -87,11 +87,11 @@ Adversarial examples pose serious threats to deep neural networks, exposing fund
 
 ## Acknowledgments
 
- Code refers to [FIA](https://github.com/hcguoO0/FIA), [RPA](https://github.com/alwaysfoggy/RPA).
+ Code refers to [SVD](https://github.com/WJJLL/SVD-SSA).
 
  We thanks the authors for sharing sincerely.
 
-## Citation
+## Citatio
 
  If you find this work is useful in your research, please cite our paper:
 
@@ -109,6 +109,6 @@ Adversarial examples pose serious threats to deep neural networks, exposing fund
 
 ## Contact
 
-[Wen Yang](https://github.com/Winwina8/Winwina8.github.io/): [winwina8@126.com](mailto:winwina8@126.com)
+[Shuangshuang Pu](https://github.com/ShuangPu/shuangpu): [shuangshuangpu@stu.cqut.edu.cn](mailto:shuangshuangpu@stu.cqut.edu.cn)
 
 [Di Ming (*Corresponding Author)](https://midasdming.github.io/): [diming@cqut.edu.cn](mailto:diming@cqut.edu.cn)
