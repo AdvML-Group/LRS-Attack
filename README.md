@@ -93,18 +93,18 @@ Adversarial examples pose serious threats to deep neural networks, exposing fund
 
  We thanks the authors for sharing sincerely.
 
-## Citatio
+## Citation
 
  If you find this work is useful in your research, please cite our paper:
 
 ```
-@InProceedings{ICCV25_SMP_Attack,
-    author    = {Yang, Wen and Liu, Guodong and Ming, Di},
-    title     = {SMP-Attack: Boosting the Transferability of Feature Importance-based Adversarial Attack with Semantics-aware Multi-granularity Patchout},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2025},
-    pages     = {4444-4454}
+@InProceedings{ICML26_LRS_Attack,
+    author    = {Pu, Shuangshuang and Yang, Wen and Li, Min and Liu, Guodong and Ding, Chris and Ming, Di},
+    title     = {Low-Rank and Sparsity Are All You Need: Exploring Robust Hierarchical Latent Subspaces for Transferable Adversarial Attack},
+    booktitle = {Forty-third International Conference on Machine Learning (ICML 2026)},
+    month     = {July},
+    year      = {2026},
+    pages     = {}
 }
 
 ```
